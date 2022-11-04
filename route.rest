@@ -1,0 +1,31 @@
+GET http://localhost:3000
+
+###
+
+GET http://localhost:3000/2
+
+###
+
+POST  http://localhost:3000
+Content-Type: application/json
+
+{
+  "name": "Viktor",
+  "occupation": "coder",
+  "education": "higher education"
+}
+
+###
+
+PATCH http://localhost:3000/3
+Content-Type: application/json
+
+{
+  "name": "Misho",
+  "occupation": "QA",
+  "education": "-"
+}
+
+###
+
+DELETE http://localhost:3000/3
